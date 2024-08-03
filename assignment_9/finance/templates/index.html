@@ -1,0 +1,39 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Index
+{% endblock %}
+
+{% block main %}
+
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th class="text-start">Symbol</th>
+                <th class="text-end">Shares</th>
+                <th class="text-end">Price</th>
+                <th class="text-end">Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for symbol in symbols %}
+                <tr>
+                    <th class="text-start">{{symbol.symbol}}</th>
+                    <th class="text-end">{{symbol["SUM(shares)"]}}</th>
+                    <th class="text-end">{{symbol.current_price | usd}} </th>
+                    <th class="text-end">{{symbol.total | usd}}</th>
+                </tr>
+            {% endfor %}
+            <tr>
+                <td class="border-0 fw-bold text-end" colspan="3">Cash</td>
+                <td class="text-end">{{cash | usd}}</td>
+            </tr>
+            <tr>
+                <td class="border-0 fw-bold text-end" colspan="3">Net Worth</td>
+                <td class="text-end">{{tot | usd}}</td>
+            </tr>
+
+        </tbody>
+    </table>
+{% endblock %}

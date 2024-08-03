@@ -1,0 +1,159 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #303030;
+}
+
+.hero {
+    background-color: #222222;
+    padding-bottom: 70px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    background-color: #111111;
+
+}
+
+.Logo {
+    font-size: 24px;
+    color: #f9faf8;
+    margin-left: 10%;
+}
+
+.list-header {
+    display: flex;
+    list-style: none;
+    font-size: 18px;
+    color: #e5e7eb;
+    gap: 20px;
+    justify-content: space-between;
+    margin-right: 10%;
+}
+
+.hero-body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.hb-left {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: space-around;
+    gap: 10px;
+    max-width: 300px;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bolder;
+}
+
+.hero-secondary-text {
+    font-size: 18px;
+    color: #f9faf8;
+}
+
+
+
+.body-img {
+    width: 50%;
+    height: auto;
+    min-width: 450px;
+    margin-right: 10%;
+    margin-left: 30%;
+}
+
+
+.card-group {
+    margin-top: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%
+}
+
+.card {
+    border-color: #333333;
+}
+
+.card-body {
+    background-color: #1F2027;
+}
+
+.card-title,
+.card-text {
+    color: #f9faf8;
+}
+
+.btn.btn-primary {
+    background-color: #222222;
+    border-color: #1F2937;
+}
+
+a {
+    color: #f9faf8;
+    text-decoration: none;
+}
+
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.column {
+    -ms-flex: 50%;
+    flex: 50%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+.gridimg {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+
+.headgrid {
+    text-align: center;
+    padding: 32px;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    padding: 10px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.btn:hover {
+    background-color: #ddd;
+}
+
+.btn.active {
+    background-color: #666;
+    color: white;
+}
+
+p {
+    color: #ffffff;
+}

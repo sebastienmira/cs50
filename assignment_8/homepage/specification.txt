@@ -1,0 +1,24 @@
+HTML tags used:
+div
+ul
+li
+a
+img
+h5
+p
+button
+link
+meta
+script
+
+5 CSS properties
+display
+background-color
+font-size
+flex-direction
+width
+...
+
+Hi used Bootstrap to include the cards in the homepage as they offer a brief of the linked pages with an image.
+
+I used Javascript to modify the size of the gallery grid, allowing the user to display full width photos, or 2, 3 or 4 photos side by side responsively.
