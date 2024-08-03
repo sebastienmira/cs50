@@ -1,0 +1,11 @@
+sort1 uses: Bubble Sort
+
+How do you know?: Sorting reversed files takes considerably longer than sorted files. Big-O >> Omega.
+
+sort2 uses:Merge Sort
+
+How do you know?: Much smaller running time sorting the reversed files than the other program. Also same order of time to sort the reversed files and sorted files.
+
+sort3 uses: Selection Sort
+
+How do you know?: Time around the same order as sort 1 when sorting the revrsed files and not much difference when sorting the sorted files. Big-o = Omega
